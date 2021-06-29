@@ -45,7 +45,7 @@
 
   <div class="row"> 
     {% for i in range(0, image_urls|length) %}
-      <img src="{{image_urls[i]}}">
+      <img src="{{image_urls[i]}}" loading="lazy">
     {% endfor %}
   </div>
   </body>

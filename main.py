@@ -13,7 +13,7 @@ def get_image_urls(ids):
 def app_main():
     ids = request.args.get('asset_ids').split(',')
     image_urls = get_image_urls(ids)
-    return render_template("index.html", image_urls=image_urls, info=ids)
+    return render_template("index.html", image_urls=image_urls)
 
 
 @app.errorhandler(500)
