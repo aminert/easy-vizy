@@ -1,2 +1,3 @@
 # easy-vizy
-Tiny visualization engine for machine learning
+Minimal visualization tool for images on a grid
+
