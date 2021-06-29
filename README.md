@@ -65,4 +65,4 @@ IPython.display.HTML(iframe)
 
 ## License
 
-easy-vizy is MIT licensed, as found in the [LICENSE](LICENSE) file. Please note that some of the dependencies AugLy uses may be licensed under different terms.
+Easy-vizy is MIT licensed, as found in the [LICENSE](LICENSE) file. Please note that some of the dependencies AugLy uses may be licensed under different terms.
