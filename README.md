@@ -43,25 +43,25 @@ Open [http://localhost:3000/?asset_ids=image_id1,imageid2 ...](http://localhost:
 
 Make sure to pass valid image ids from your dataset.
 
-## Customization
-If you want to customize the visualization, you can edit the page by modifying `templates/index.html`. 
 
 ## Using From a Notebook
 You can load the grid visualization inline from your favorite notebook...
 
 ```python
 import IPython
-# find out which image ids to visualize 
+# find out whichs image to visualize 
 image_ids = ['image_id1', 'image_id2',...]
 # construct the URL
 url = "http://127.0.0.1:3000/?asset_ids=" + ",".join(image_ids)
-# build a Iframe
+# build an Iframe
 iframe = '<iframe src='+url+', width=800, height=400></iframe>'
 
 # Display the visualization 
 IPython.display.HTML(iframe)
 ```
 
+## Customization
+If you want to customize the visualizations, you can edit the index page (including the CSS or display more info as needed) by modifying `templates/index.html`. 
 
 ## License
 
