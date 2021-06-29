@@ -46,7 +46,21 @@ Make sure to pass valid image ids from your dataset.
 ## Customization
 If you want to customize the visualization, you can edit the page by modifying `templates/index.html`. 
 
+## Using From a Notebook
+You can load the grid visualization inline from your favorite notebook...
 
+```python
+import IPython
+# find out which image ids to visualize 
+image_ids = ['image_id1', 'image_id2',...]
+# construct the URL
+url = "http://127.0.0.1:3000/?asset_ids=" + ",".join(image_ids)
+# build a Iframe
+iframe = '<iframe src='+url+', width=800, height=400></iframe>'
+
+# Display the visualization 
+IPython.display.HTML(iframe)
+```
 
 
 ## License
