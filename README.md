@@ -61,7 +61,7 @@ IPython.display.HTML(iframe)
 ```
 
 ## Customization
-If you want to customize the visualizations, you can edit the index page (including the CSS or display more info as needed) by modifying `templates/index.html`. 
+If you want to customize the visualizations, you can edit the index page (to add more info as needed) by modifying `templates/index.html`. Also, you can edit the sytles under `static/style.css`.
 
 ## License
 
