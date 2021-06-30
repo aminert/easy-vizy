@@ -49,7 +49,7 @@ You can load the grid visualization inline from your favorite notebook...
 
 ```python
 import IPython
-# find out whichs image to visualize 
+# find out which images to visualize 
 image_ids = ['image_id1', 'image_id2',...]
 # construct the URL
 url = "http://127.0.0.1:3000/?asset_ids=" + ",".join(image_ids)
