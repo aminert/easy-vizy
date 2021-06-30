@@ -4,39 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Easy Vizy 😎</title>
-    <style>
-        * {
-          box-sizing: border-box;
-        }
-        body {
-          margin: 0;
-          font-family: Arial;
-          color: rgb(255, 255, 255);
-          background-color: black;
-        }
-        .header {
-          text-align: center;
-          padding: 32px;
-        }
-        .row {
-          display: flex;
-          flex-wrap: wrap;
-          align-items: flex-start;
-          flex-direction: row;
-          max-height: 100vh;
-          padding: 0 4px;
-        }
-        .row img {
-          border-width: 1px;
-          border-style: solid;
-          border-color: #c9ced6be;
-          margin: 4px;
-          flex: 10%;
-          max-height: 25vh;
-          object-fit: fill;
-          max-width: 50%;
-        }
-        </style>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
   </head>
   <body>
   <div class="header">
